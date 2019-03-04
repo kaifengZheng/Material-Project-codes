@@ -21,7 +21,7 @@ pd.all_entries
 
 pd.elements
 
-#(2)	qhull_data(type: numpy.array): matrix contains composition data and energy data
+#qhull_data(type: numpy.array): matrix contains composition data and energy data
 
 pd.qhull_data
 
