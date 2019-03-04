@@ -1,9 +1,10 @@
 from pymatgen.core.periodic_table import Element
 from pymatgen.ext.matproj import MPRester
 from pymatgen.analysis.phase_diagram import PhaseDiagram,PDPlotter
+
 a = MPRester("Your API Key") #generate on Dashboard of MaterialProject
 entries = a.get_entries_in_chemsys(['Ca', 'C','O'])
-$generate a PhaseDiagram object
+#generate a PhaseDiagram object
 pd = PhaseDiagram(entries)
 plotter = PDPlotter(pd)
 plotter.show()
